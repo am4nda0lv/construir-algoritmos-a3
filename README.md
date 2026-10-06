@@ -18,6 +18,6 @@ O objetivo desta atividade é criar um mapa com os pins das paradas de ônibus e
 - [ ] Deverá criar um fork deste repositório
 - [ ] Deverá incluir toda a solução no script `solution.py`
 - [ ] O mapa deverá ser adicionado no repositório
-- [ ] Os pins das paradas deverão ser de cor diferente do pins de posição em tempo real
+- [ ] Os pins das paradas deverão ser de cor diferente dos pins de posição em tempo real
 - [ ] O ônibus selecionado deverá ser diferente do que foi utilizado nos slides
 
