@@ -10,6 +10,7 @@ Seguindo estas etapas:
 - [Busca por paradas](https://unasp-aulas.github.io/construir-algoritmos/docs/index.html#/monitoramento-da-frota-de-%C3%B4nibus)
 - [Posições em tempo real](https://unasp-aulas.github.io/construir-algoritmos/docs/index.html#/monitoramento-da-frota-de-%C3%B4nibus)
 - [Criação de mapa](https://unasp-aulas.github.io/construir-algoritmos/docs/index.html#/monitoramento-da-frota-de-%C3%B4nibus)
+
 O objetivo desta atividade é criar um mapa com os pins das paradas de ônibus e os pins do ônibus em circulação em tempo real.
 
 ## Requisitos
