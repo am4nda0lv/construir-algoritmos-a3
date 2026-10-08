@@ -8,6 +8,9 @@ URL_BASE = "https://api.olhovivo.sptrans.com.br/v2.1"
 # Código da linha escolhida
 CODIGO_LINHA = 35274
 
+# Ônibus escolhido para aparecer no mapa
+ONIBUS_ESCOLHIDO = "12644"
+
 
 def autenticar(sessao):
     token = os.environ["SPTRANS_TOKEN"]
@@ -78,8 +81,11 @@ def criar_mapa(paradas, onibus):
             )
         ).add_to(mapa)
 
-    # PINS DOS ÔNIBUS
+    # PIN DO ÔNIBUS SELECIONADO
     for onibus_item in onibus:
+
+        if str(onibus_item["p"]) != ONIBUS_ESCOLHIDO:
+            continue
 
         folium.Marker(
             location=[
